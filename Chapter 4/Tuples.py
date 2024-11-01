@@ -15,5 +15,5 @@ my_tuple = (1,)
 #create a tuple with multiple elements
 my_tuple = (1, 2, 3, 4, 5)
 
-#create a tuple with mixed data types
+#create a tuple with mixed data types 
 my_tuple = (1, "apple", 3.14, True)
