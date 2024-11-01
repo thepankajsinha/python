@@ -4,7 +4,7 @@ str = "Hello World"
 print(len(str)) # Output: 11
 
 
-# string.count(): counts the total number of occurrences of any character.
+# count(): counts the total number of occurrences of any character.
 print(str.count("l")) # Output: 3
 
 
