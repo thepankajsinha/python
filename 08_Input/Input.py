@@ -1,4 +1,4 @@
-# This function allows the user to take input from the keyboard as a string.
+# input() function allows the user to take input from the keyboard as a string.
 
 
 #Without typecasting the input in interger

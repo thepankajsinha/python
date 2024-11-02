@@ -11,16 +11,6 @@ b = int(a)
 print(type(b)) #Output <class 'int'>
 
 
-
-# Convert an integer to a float
-#float() is used to convert any data type to a float
-c = 10
-print(type(c)) #Output <class 'int'>
-
-d = float(c)
-print(type(d)) #Output <class 'float'>
-
-
 # Convert an integer to string
 #str() is used to convert any data type to string
 e = 10

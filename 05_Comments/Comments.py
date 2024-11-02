@@ -4,6 +4,9 @@
 
 
 #We use """ """ for multiple lines comments
-""" This is 
-    multiple lines
-    comment """
+
+""" 
+This is 
+multiple lines
+comment 
+"""
