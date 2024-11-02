@@ -5,10 +5,6 @@
 list_of_numbers = [1, 2, 3, 4, 5]
 
 
-#slicing the list
-print(list_of_numbers[0:3])  # Output: [1, 2, 3]
-
-
 
 #Length of the list
 print(len(list_of_numbers))  # Output: 5
