@@ -2,7 +2,7 @@
 # type() function is used to determine the data type
 
 # Integer
-x = 10
+x = 20
 print(type(x))  # Output: <class 'int'>
 
 
