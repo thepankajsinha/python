@@ -1,0 +1,1 @@
+print(studentInfo.get("name"))
