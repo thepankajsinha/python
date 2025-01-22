@@ -1,1 +1,0 @@
-print(studentInfo.get("name"))
