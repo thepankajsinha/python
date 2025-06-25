@@ -1,4 +1,5 @@
 # break
+# it terminates the loop immediately
 count = 1
 while(count <= 5):
     print(count)
@@ -13,6 +14,7 @@ while(count <= 5):
 
 
 # continue
+# it skips the current iteration and continues with the next one
 count = 1
 while(count <= 5):
     if(count == 3):

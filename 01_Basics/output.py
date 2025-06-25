@@ -1,5 +1,5 @@
 #print in same line
-print("Good Morning,","Pankaj") #Good Morning Pankaj
+print('Hello World')  # Hello World
 
 
 #print in different lines
@@ -7,6 +7,7 @@ print("Good Morning")   #Good Morning
 print("Pankaj")      # Pankaj
 
 
-#print sumbers
-print(10+20)   # Output: 30
+name = "Pankaj"
+print(f'Good Morning {name}')  # Good Morning Pankaj
+
 
