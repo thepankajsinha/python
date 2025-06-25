@@ -16,21 +16,10 @@ print(list_of_numbers)  # Output: [1, 2, 3, 4, 5]
 
 
 
-#append method- Adds an item to the end of the list.
-list_of_numbers.append(6)
-print(list_of_numbers)  # Output: [1, 2, 3, 4, 5, 6]
-
-
 
 #extend method- Adds all elements to the end of the list.
 list_of_numbers.extend([7, 8, 9])
 print(list_of_numbers)  # Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
-
-
-
-#insert method- Inserts an item at the specified index.
-list_of_numbers.insert(3, 10) #index - 3, item - 10
-print(list_of_numbers)  # Output: [1, 2, 3, 10, 4, 5, 6, 7, 8, 9]
 
 
 

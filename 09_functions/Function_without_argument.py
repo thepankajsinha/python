@@ -7,10 +7,7 @@ def greet():
 
 #Function calls
 greet()
-greet()
-greet()
+
 
 #Output
-# Hello, World!
-# Hello, World!
 # Hello, World!

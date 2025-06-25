@@ -1,10 +1,12 @@
-count = 1
-while(count <= 5):
-    print("Hello world!")
-    count = count + 1
+num = ['potato', 'tomato', 'onion', 'cabbage']
 
-# Hello world!
-# Hello world!
-# Hello world!
-# Hello world!
-# Hello world!
+# Using while loop
+i = 0
+while i < len(num):
+    print(num[i])
+    i += 1
+
+# potato
+# tomato
+# onion
+# cabbage

@@ -34,9 +34,3 @@ print(str.isalpha()) # Output: False
 
 #isdigit(): Checks if all characters are digits.
 print(str.isdigit()) # Output: False
-
-
-#format(): Formats strings with placeholders.
-name = "John Doe"
-age = 30
-print("My name is {} and I am {} years old.".format(name, age)) # Output: My name is John Doe and I am 30 years old.
