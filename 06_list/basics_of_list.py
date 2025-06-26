@@ -1,3 +1,21 @@
+#List is a built in data structure that is used to store multiple items in a single variable.
+#List items can be of any data type.
+# list is mutable, ordered, and allows duplicate elements.
+# list can grow or shrink in size dynamically.
+
+
+# Creating a list of string
+fruits = ['apple', 'banana', 'cherry']
+
+# Creating a list of number
+num = [1, 2, 3, 4, 5]
+
+
+# Creating a list of mixed data types
+mixed_list = ['apple', 1, True, 3.14]
+
+
+
 my_list = [1, 2, 3, 4, 5]
 
 # print  the entire list using loop range
@@ -32,7 +50,6 @@ print(my_list)  # Output: [1, 20, 2, 10, 4, 5, 6]
 popped_element = my_list.pop()  # Removes and returns the last element
 print(popped_element)  # Output: 6
 print(my_list)  # Output: [1, 20, 2, 10, 4, 5]
-
 
 
 # Slicing a list

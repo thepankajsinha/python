@@ -16,10 +16,6 @@ print(str.upper()) # Output: HELLO WORLD
 print(str.lower()) # Output: hello world
 
 
-# strip(): Removes leading and trailing whitespace
-print(str.strip()) # Output: Hello World
-
-
 #replace(old, new): Replaces occurrences of a substring with another.
 print(str.replace("World", "Python")) # Output: Hello Python
 

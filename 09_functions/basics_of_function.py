@@ -1,8 +1,8 @@
 #function with arguments
 
 #Function definitions
-def sum(a, b):
-    sum = a + b
+def sum(num1, num2):
+    sum =  num1 + num2
     return sum
 
 

@@ -1,31 +1,29 @@
-studentInfo = {
-    "name": "John Doe",
-    "age": 21,
-    "GPA": 8.9,
-    "is_Pass": True,
+student = {
+    "name": "Rahul",
+    "age": 20,
+    "branch": "CSE"
 }
 
 #returns all keys
-print(studentInfo.keys()) 
-# Output: dict_keys(['name', 'age', 'GPA', 'is_pass'])
+print(student.keys())
+# Output: dict_keys(['name', 'age', 'branch'])
 
 
 # returns all values
-print(studentInfo.values())
-# Output: dict_values(['John Doe', 21, 8.9, True])
+print(student.values())
+# Output: dict_values(['Rahul', 20, 'CSE'])
 
 
 # returns all key-value pairs
-print(studentInfo.items())
-# dict_items([('name', 'John Doe'), ('age', 21), ('GPA', 8.9), ('is_Pass', True)])
+print(student.items())
+# Output: dict_items([('name', 'Rahul'), ('age', 20), ('branch', 'CSE')])
 
 
 #get method
-print(studentInfo.get("name"))
-#John Doe
+print(student.get("name"))
+# Output: Rahul
 
 #update method
-
-studentInfo.update({"name": "Jane Doe"})
-print(studentInfo)
-#{'name': 'Jane Doe', 'age': 21, 'GPA': 8.9, 'is_Pass': True}
+student.update({"GPA": 9.0})
+print(student)
+# Output: {'name': 'Rahul', 'age': 20, 'branch': 'CSE', 'GPA': 9.0}
