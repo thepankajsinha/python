@@ -1,0 +1,10 @@
+🔀 Classification of Polymorphism
+
+📌 Compile-time Polymorphism
+
+Resolved during compilation (before the program runs).
+Python does not support compile-time polymorphism like traditional function overloading because it is dynamically typed.
+
+🕒 Runtime Polymorphism
+Resolved while the program is running. Python heavily uses this.
+
