@@ -30,3 +30,8 @@ print(str.isalpha()) # Output: False
 
 #isdigit(): Checks if all characters are digits.
 print(str.isdigit()) # Output: False
+
+
+#strip(): Removes leading and trailing whitespace.
+str2 = "   Hello World   "
+print(str2.strip()) # Output: Hello World

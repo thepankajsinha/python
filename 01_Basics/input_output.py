@@ -1,3 +1,7 @@
+# input() - to take input from user
+# print() - to display output
+
+
 # Write a python program to add two numbers.
 
 num_1 = int(input("Enter number 1: "))
